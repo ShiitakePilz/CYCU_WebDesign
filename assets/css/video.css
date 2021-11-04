@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    div.menudiv{
+        position:relative;
+    } 
+    li{
+        font-size: 16px;
+        color: white;
+        display: inline;
+        position: relative;
+        padding: 18px 12px;
+    }
+    li.menu{
+        font-size: 16px;
+        color: white;
+    }
+    li a{
+        color: inherit; /* 移除超連結顏色 */
+        text-decoration: none;  /* 移除超連結底線 */
+    }
+    li a:link{
+        color:white;
+    }
+    ul {
+        background-color:#1d3e13;
+        text-align:right ;
+        margin: 0%;
+        padding: 0%;
+        list-style: none;
+        position: fixed;
+        left: 0%;
+        top:0%;
+        width: 100%;
+        font-size: 16px;
+        z-index: 5;
+    }
+    .menu {
+        padding: 16px;
+        font-size: 16px;
+        cursor: pointer; /* 滑鼠游標的形狀*/
+        position: relative;
+        display: inline-block;
+    }
+    .menu-content {
+        text-align: center;
+        border-radius: 5px; /*圓角*/
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 70px;
+        z-index: 1;
+        font-size: 15px;
+    }
+    .menu-content a {
+        border-radius: 5px; 
+        color: black;
+        padding: 10px 12px;
+        display: block; /*游標下顏色*/
+    }
+    .menu-content a:hover {background-color: #dead85}
+    .menu:hover .menu-content {display: block;}
+    li:hover{
+        text-decoration: underline;
+    }
+    div.vedio1{
+        position: relative;
+        top:100px;
+        text-align: center;
+        z-index: 0;
+    }
+    div.vedio2{
+        position: relative;
+        top:150px;
+        text-align: center;
+        z-index: 0;
+    }
+    iframe{
+        position:relative;
+        z-index: 0;
+    }
+
+    h1{
+        background-color: #1d3e13;
+        color: white;
+        margin: 0px 350px 0px 350px;
+    }
+    h2{
+        padding-bottom: 30px;
+    }
+    h2.statement{
+        font-size: 20px;
+    }
+    div.footerdiv{
+        color: rgb(250, 223, 149);
+        padding: 33px;
+        z-index: 20;
+        background-color: #1d3e13 ;
+    }
+    p.footer1{
+        font-size: 13px;
+        text-align: center;
+    }
+    .title{
+        position: fixed;
+        z-index: 2000;
+        top: 2%;
+        left: 0%;
+        color: white;
+        font-size: 20px;
+        cursor:default;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+

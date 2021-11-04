@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.root{
+    border: 2px solid aliceblue;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.root-img{
+    max-width: 300px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.root-img>img{
+    width: 100%;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.root1{
+    border: 2px solid #000;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.root1-img{
+    max-width: 300px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.root1-img>img{
+    width: 100%;
+}

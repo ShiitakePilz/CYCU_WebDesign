@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>維澈樓－2F</title>
+    <link rel="stylesheet"  href="assets\css\floor.css" type="text/css">
+</head>
+<body>
+    <div class="menudiv">
+      <p class="title">中原大學維澈樓</p>
+        <ul class="txt">
+          <li class="txt"><a href="index.html">首頁</a></li>
+          <li class="menu" ><a href="">樓層導覽</a>
+              <div class="menu-content">
+                <a href="1f-1.html">一樓</a>
+                <a href="2f-1.html">二樓</a>
+                <a href="3f-1.html">三樓</a>
+                <a href="4f-1.html">四樓</a>
+                <a href="5f-1.html">五樓</a>
+                <a href="6F-1.html">六樓</a>
+                <a href="7F-1.html">七樓</a>
+                <a href="8F-1.html">八樓</a>
+                <a href="9f-1.html">九樓</a>
+            </div></li>
+            <li class="txt"><a href="video.html">影片介紹</a></li>
+            <li class="txt"><a href="aboutus.html">關於我們</a></li>
+        </ul>
+    </div>
+    <br><br>
+  <div class="contentdiv">
+  <br><br>
+    <div class="all">
+      <div class="aim-container">
+        <div class="aim">
+            <div class="aim-text">
+            <h2>中原大學－校友服務處、宗倬章紀念廳｜成立宗旨</h2>
+            <p>做為一所卓越領先的綜合大學，誓言打造一流的校務研究與評鑑基地，作為校務經營與發展之支柱。<br><br>
+            五大願景：專業、創新、加值、客觀、科技<br><br></p>
+            <p><b>中心宗旨：關懷中原人，傳遞中原情，凝聚中原心。</b></p>
+          </div>
+        </div>    
+      </div>
+      <br><br>
+      <div class="container">
+        <div class="root">
+          <div class="root-img">
+            <img class="imgg" src="assets/images/校友服務處.jpg" alt="校友服務處" />
+          </div>
+          <div class="root">
+            <div class="root-text">
+              <h2>校友服務中心</h2>
+              <p>服務項目：校友服務、中原捐款</p>
+              <p><a href="https://alumni.cycu.edu.tw/alumni/">校友服務暨資源發展處</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="container1">
+        <div class="root1">
+          <div class="root1-text">
+            <h2>宗倬章紀念廳</h2>
+            <p>人文活動、講座及演講皆會在此舉辦。</p>
+          </div>
+          <div class="root1-img">
+            <img class="imgg" src="assets/images/宗倬章紀念廳.jpg" alt="宗倬章紀念廳" />
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+    $(function(){
+        $('#BackTop').click(function(){ 
+            $('html,body').animate({scrollTop:0}, 5);
+        });
+        $(window).scroll(function() {
+            if ( $(this).scrollTop() > 300 ){
+                $('#BackTop').fadeIn(222);
+            } else {
+                $('#BackTop').stop().fadeOut(222);
+            }
+        }).scroll();
+    });
+</script>
+
+</body>
+<footer>
+  <div class="footerdiv">
+      <p class="footer1">Copyright © 2021 CYCU-IM</p>
+  </div>
+</footer>
+
+
+</html>

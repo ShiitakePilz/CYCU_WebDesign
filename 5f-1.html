@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>維澈樓－5F</title>
+    <link rel="stylesheet"  href="assets\css\floor.css" type="text/css">
+</head>
+<body>
+    <div class="menudiv">
+      <p class="title">中原大學維澈樓</p>
+
+        <ul class="txt">
+          <li class="txt"><a href="index.html">首頁</a></li>
+          <li class="menu" ><a href="">樓層導覽</a>
+              <div class="menu-content">
+                <a href="1f-1.html">一樓</a>
+                <a href="2f-1.html">二樓</a>
+                <a href="3f-1.html">三樓</a>
+                <a href="4f-1.html">四樓</a>
+                <a href="5f-1.html">五樓</a>
+                <a href="6F-1.html">六樓</a>
+                <a href="7F-1.html">七樓</a>
+                <a href="8F-1.html">八樓</a>
+                <a href="9f-1.html">九樓</a>
+            </div></li>
+            <li class="txt"><a href="video.html">影片介紹</a></li>
+            <li class="txt"><a href="aboutus.html">關於我們</a></li>
+        </ul>
+    </div>
+    <br><br>
+
+    <div class="contentdiv">
+      <br><br>
+        <div class="all">
+          <div class="aim-container">
+            <div class="aim">
+                <div class="aim-text">
+                    <h2>中原大學－總務處、環安中心｜成立宗旨</h2>
+                <p><b>總務處</b><p>
+                <p>總務處是一全校性的行政服務支援單位，本處在民國44年建校（中原理工學院）即設有總務處，<br>
+                  下設文書組、保管組、事務組、出納組和戶籍組等五組，並設有防護團。</p>
+                <p><b>環安中心</b></p>
+                <p>環安中心是一全校性的行政服務支援單位， 主要為針對學校實驗室安全與環境保護等工作提供諮詢與服務，以期全校師生員工能夠有一個安全的工作環境。</p>
+              </div>
+            </div>    
+          </div>
+          <br><br>
+          <div class="container">
+            <div class="root">
+              <div class="root-img">
+                <img class="imgg" src="assets/images/總務處.jpg" alt="總務處" />
+              </div>
+              <div class="root">
+                <div class="root-text">
+                  <h2>總務處</h2>
+                  <p>服務項目：<br><br>
+                    交通車、校園無障礙設施及通路、出納、事務等事宜。</p>
+                  <p><a href="https://ga.cycu.edu.tw/">總務處</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="container1">
+            <div class="root1">
+              <div class="root1-text">
+                <h2>環安中心</h2>
+                <p>服務項目：<br><br>
+                  學生請假、銷假及住宿等事宜須至軍訓室處理。</p>
+                <p><a href="https://eposh.cycu.edu.tw/">環安中心</a></p>
+              </div>
+              <div class="root1-img">
+                <img class="imgg" src="assets/images/環安中心.jpg" alt="環安中心" />
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer>
+      <div class="footerdiv">
+          <p class="footer1">Copyright © 2021 CYCU-IM</p>
+      </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <button type="button" id="BackTop" class="toTop-arrow"></button>
+  <script>
+      $(function(){
+          $('#BackTop').click(function(){ 
+              $('html,body').animate({scrollTop:0}, 5);
+          });
+          $(window).scroll(function() {
+              if ( $(this).scrollTop() > 300 ){
+                  $('#BackTop').fadeIn(222);
+              } else {
+                  $('#BackTop').stop().fadeOut(222);
+              }
+          }).scroll();
+      });
+  </script>
+
+</body>
+</html>

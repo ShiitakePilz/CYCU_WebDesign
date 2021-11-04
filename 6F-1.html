@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>維澈樓－6F</title>
+    <link rel="stylesheet"  href="assets\css\floor.css" type="text/css">
+</head>
+<body>
+    <div class="menudiv">
+      <p class="title">中原大學維澈樓</p>
+
+        <ul class="txt">
+          <li class="txt"><a href="index.html">首頁</a></li>
+          <li class="menu" ><a href="">樓層導覽</a>
+              <div class="menu-content">
+                <a href="1f-1.html">一樓</a>
+                <a href="2f-1.html">二樓</a>
+                <a href="3f-1.html">三樓</a>
+                <a href="4f-1.html">四樓</a>
+                <a href="5f-1.html">五樓</a>
+                <a href="6F-1.html">六樓</a>
+                <a href="7F-1.html">七樓</a>
+                <a href="8F-1.html">八樓</a>
+                <a href="9f-1.html">九樓</a>
+            </div></li>
+            <li class="txt"><a href="video.html">影片介紹</a></li>
+            <li class="txt"><a href="aboutus.html">關於我們</a></li>
+        </ul>
+    </div>
+    <br><br>
+
+    <div class="contentdiv">
+        <br><br>
+        <div class="all">
+          <div class="aim-container">
+            <div class="aim">
+                <div class="aim-text">
+                      <h2>中原大學－會計室｜成立宗旨</h2>
+                  <p>學校財務結構與校務發展計畫緊密結合，依據執行單位為配合校務發展計畫所擬訂之工作計畫，<br>
+                      加以評估後再由會計部門彙編預算使資源合理化分配以提昇資源使用效率。</p>
+                </div>
+              </div>    
+            </div>
+            <br><br>
+            <div class="container">
+              <div class="root">
+                <div class="root-img">
+                  <img class="imgg" src="assets/images/會計室.jpg" alt="會計室" />
+                </div>
+                <div class="root">
+                  <div class="root-text">
+                    <h2>會計室</h2>
+                    <p>服務項目：<br><br>
+                    編制各處預算、學雜費、編制財務報表等事宜。</p>
+                    <p><a href="https://acct.cycu.edu.tw/">會計室</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div class="footerdiv">
+          <p class="footer1">Copyright © 2021 CYCU-IM</p>
+      </div>
+  </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+    <script>
+        $(function(){
+            $('#BackTop').click(function(){ 
+                $('html,body').animate({scrollTop:0}, 5);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 300 ){
+                    $('#BackTop').fadeIn(222);
+                } else {
+                    $('#BackTop').stop().fadeOut(222);
+                }
+            }).scroll();
+        });
+    </script>
+</body>
+</html>
