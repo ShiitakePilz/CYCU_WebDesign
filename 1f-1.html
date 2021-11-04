@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>維澈樓－1F</title>
+    <link rel="stylesheet"  href="assets\css\floor.css" type="text/css">
+</head>
+<body>
+    <div class="menudiv">
+        <p class="title">中原大學維澈樓</p>
+        <ul class="txt">
+            <li class="txt"><a href="index.html">首頁</a></li>
+            <li class="menu" ><a href="">樓層導覽</a>
+            <div class="menu-content">
+                <a href="1f-1.html">一樓</a>
+                <a href="2f-1.html">二樓</a>
+                <a href="3f-1.html">三樓</a>
+                <a href="4f-1.html">四樓</a>
+                <a href="5f-1.html">五樓</a>
+                <a href="6F-1.html">六樓</a>
+                <a href="7F-1.html">七樓</a>
+                <a href="8F-1.html">八樓</a>
+                <a href="9f-1.html">九樓</a>
+            </div></li>
+            <li class="txt"><a href="video.html">影片介紹</a></li>
+            <li class="txt"><a href="aboutus.html">關於我們</a></li>
+        </ul>
+    </div>
+    <br><br>
+    <div class="centerdiv">
+    <br><br>
+    <div class="all">
+    <div class="aim-container">
+        <div class="aim">
+            <div class="aim-text">
+                <h2>中原大學－聯合服務中心｜成立宗旨</h2>
+                <p>整合教務、學務、校友中心等事務，提供快速便捷的行政服務，建置舒適雅緻公共空間，呈現洽公、休憩之親和氛圍與創新便利的服務形象，提升整體行政服務效率與品質。</p>
+            </div>
+        </div>
+    </div>             
+    <br><br>
+    <div class="container">
+        <div class="root">
+            <div class="root-img">
+                <img src="assets/images/1f-1.jpg" alt="櫃台" />
+            </div>
+            <div class="root-text">
+                <h2>聯合行政服務中心</h2>
+                <p>服務項目：<br>
+                    在校學生服務項目、休/退學生服務項目、<br>
+                    畢業校友服務項目、空間借用。</p>
+                <p><a href="https://acadm.cycu.edu.tw/%e8%aa%b2%e5%8b%99%e8%88%87%e8%a8%bb%e5%86%8a%e7%b5%84%e8%81%af%e5%90%88%e8%a1%8c%e6%9c%8d%e5%8b%99%e4%b8%ad%e5%bf%83/%e8%81%af%e5%90%88%e8%a1%8c%e6%94%bf%e6%9c%8d%e5%8b%99%e4%b8%ad%e5%bf%83/">聯合服務中心</a></p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container1">
+        <div class="root1">
+            <div class="root1-text">
+                <h2>星巴克</h2>
+                <p>一進入中原正門口即可看見星巴克。</p>
+            </div>
+            <div class="root1-img">
+                <img src="assets/images/coffee.jpg" alt="星巴克" />
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="root">
+            <div class="root-img">
+                <img src="assets/images/郵務室.jpg" alt="郵務室" />
+            </div>
+            <div class="root-text">
+                <h2>郵務室</h2>
+                <p>提供領取信件服務，位於星巴克隔壁。</p>
+                <p>開放時間為每日 8:30－12:00；13:30－17:00。</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+    <script>
+        $(function(){
+            $('#BackTop').click(function(){ 
+                $('html,body').animate({scrollTop:0}, 5);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 300 ){
+                    $('#BackTop').fadeIn(222);
+                } else {
+                    $('#BackTop').stop().fadeOut(222);
+                }
+            }).scroll();
+        });
+    </script>
+</body>
+<footer>
+    <div class="footerdiv">
+        <p class="footer1">Copyright © 2021 CYCU-IM</p>
+    </div>
+</footer>
+
+</html>

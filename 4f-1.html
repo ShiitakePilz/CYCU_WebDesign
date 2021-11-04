@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>維澈樓－4F</title>
+    <link rel="stylesheet"  href="assets\css\floor.css" type="text/css">
+</head>
+<body>
+    <div class="menudiv">
+      <p class="title">中原大學維澈樓</p>
+
+        <ul class="txt">
+          <li class="txt"><a href="index.html">首頁</a></li>
+          <li class="menu" ><a href="">樓層導覽</a>
+              <div class="menu-content">
+                <a href="1f-1.html">一樓</a>
+                <a href="2f-1.html">二樓</a>
+                <a href="3f-1.html">三樓</a>
+                <a href="4f-1.html">四樓</a>
+                <a href="5f-1.html">五樓</a>
+                <a href="6F-1.html">六樓</a>
+                <a href="7F-1.html">七樓</a>
+                <a href="8F-1.html">八樓</a>
+                <a href="9f-1.html">九樓</a>
+            </div></li>
+            <li class="txt"><a href="video.html">影片介紹</a></li>
+            <li class="txt"><a href="aboutus.html">關於我們</a></li>
+        </ul>
+    </div>
+    <br><br>
+
+    <div class="contentdiv">
+        <br><br>
+        <div class="all">
+          <div class="aim-container">
+            <div class="aim">
+                <div class="aim-text">
+                      <h2>中原大學－教務處｜成立宗旨</h2>
+                  <p>為提供全校教學業務服務之統籌單位，以招生、學習、教學、課程及資源分享五大軸向，<br>
+                    發展各項教與學政策，帶動教務體制永續發展，以達本校落實全人教育之人才培育目標。</p>
+                </div>
+              </div>    
+            </div>
+            <br><br>
+            <div class="container">
+              <div class="root">
+                <div class="root-img">
+                  <img class="imgg" src="assets/images/教務處.jpg" alt="教務處" />
+                </div>
+                <div class="root">
+                  <div class="root-text">
+                    <h2>教務處</h2>
+                    <p>服務項目：<br><br>
+                    師生學習發展中心、招生、科學與倫理教育發展等事宜。</p>
+                    <p><a href="https://acadm.cycu.edu.tw/%e6%95%99%e5%8b%99%e8%99%95/">教務處</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div class="footerdiv">
+          <p class="footer1">Copyright © 2021 CYCU-IM</p>
+      </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <button type="button" id="BackTop" class="toTop-arrow"></button>
+  <script>
+      $(function(){
+          $('#BackTop').click(function(){ 
+              $('html,body').animate({scrollTop:0}, 5);
+          });
+          $(window).scroll(function() {
+              if ( $(this).scrollTop() > 300 ){
+                  $('#BackTop').fadeIn(222);
+              } else {
+                  $('#BackTop').stop().fadeOut(222);
+              }
+          }).scroll();
+      });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+div.menudiv{
+    position:relative;
+} 
+li.a{
+    font-size: 24px;
+    color: white;
+    display: inline;
+    position: relative;
+    padding: 18px 12px;
+}
+li.menu{
+    font-size: 16px;
+    color: white;
+}
+li.menu a{
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+}
+
+li.a a{
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    font-size: 16px;
+}
+li.a a:link{
+    color:white;
+}
+ul.c {
+    background-color:#535D55;
+    text-align:right ;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    position: fixed;
+    left: 0%;
+    top:0%;
+    width: 100%;
+    font-size: 24px;
+}
+.menu {
+    padding: 16px;
+    font-size: 24px;
+    cursor: pointer; /* 滑鼠游標的形狀*/
+    position: relative;
+    display: inline-block;
+}
+.menu-content {
+    border-radius: 5px; /*圓角*/
+    display: none;
+    position: absolute;
+    background-color: white;
+    color:black;
+    min-width: 100px;
+    z-index: 1;
+    font-size: 16px;
+    text-align: center;
+}
+.menu-content a {
+    border-radius: 5px; 
+    color: black;
+    padding: 10px 12px;
+    display: block; /*游標下顏色*/
+}
+.menu-content a:hover {background-color: #fd976b}
+.menu:hover .menu-content {display: block;}
+li.a a:hover {
+    background-color: #1c5f74;
+  }
+  body{
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+  html{
+      background-color: white;
+  }
+  div.myself{
+      background-color:#A5B7C1;
+  }
+  table{
+      word-break: break-all;
+  }
+
